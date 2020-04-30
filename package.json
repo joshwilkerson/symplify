@@ -1,0 +1,30 @@
+{
+  "name": "symplify",
+  "version": "1.0.0",
+  "description": "[github](https://github.com/joshwilkerson/symplify)",
+  "main": "index.js",
+  "scripts": {
+    "bootstrap": "lerna bootstrap",
+    "build": "lerna exec",
+    "publish": "lerna publish",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joshwilkerson/symplify.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joshwilkerson/symplify/issues"
+  },
+  "homepage": "https://github.com/joshwilkerson/symplify#readme",
+  "devDependencies": {
+    "lerna": "^3.20.2",
+    "prettier": "^2.0.5"
+  },
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}
